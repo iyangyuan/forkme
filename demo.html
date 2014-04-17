@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How To Use Forkme</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--引用forkme样式-->
+    <link rel="stylesheet" href="./css/forkme.css">
+  </head>
+  <body>
+    <!--引用jquery-->
+    <script src="./js/jquery-1.8.2.min.js"></script>
+    <!--引用forkme脚本-->
+    <script src="./js/forkme-1.0.js"></script>
+    <script>
+      //渲染forkme
+      //第一个参数是显示的文本
+      //第二个参数是链接地址
+      $(document).ready(function(){
+        $("body").forkme("View Forkme","https://github.com/");
+      });
+    </script>
+  </body>
+</html>

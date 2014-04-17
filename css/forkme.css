@@ -1,0 +1,50 @@
+#forkme_banner_box a {
+  text-decoration: none;
+}
+#forkme_banner_box a:hover, #forkme_banner_box a:focus {
+  text-decoration: underline;
+}
+#forkme_banner_box{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #0090FF;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  z-index: 9999;
+}
+#forkme_banner_box a:focus {
+  outline-style:none;
+  -moz-outline-style: none;
+}
+#forkme_banner_content_box{
+  display: none;
+}
+  #forkme_banner_content {
+  background: url("./images/blacktocat.png") no-repeat scroll 95% 50% #0090FF;
+  display: block;
+  padding: 10px 50px 10px 10px;
+  color: #FFFFFF;
+}
+#forkme_banner_tool{
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding: 5px 75px;
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+}
+.drop{
+  background-image: url("./images/drop.gif");
+  background-repeat: no-repeat;
+  display: block;
+  width: 18px;
+  height: 13px;
+}
+.drop-down-ico{
+  background-position: 0 -13px;
+}
+.drop-up-ico{
+  background-position: 0 0;
+}
